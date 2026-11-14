@@ -7,58 +7,62 @@ A simulated robot surveys a room twice. A new structural element appears during 
 ![Demo](artifacts/demo.gif)
 
 
-## 看图理解这个项目
+## Visual walkthrough
 
-机器人先观察房间，利用里程计预测运动，再用激光扫描与已有地图匹配，修正自己的位置。第二轮巡检时，场景中加入一个结构，系统寻找相对第一轮基线持续出现的新表面，并进一步估计构件的安装偏差。
+The robot observes a room, predicts its motion from odometry, and refines its pose by matching each laser scan against the accumulated map. During the second survey, a new structure appears. Repeated observations provide evidence of new surfaces and support placement inspection.
 
-### 演示应该看哪里
+### Reading the animation
 
-上方动画中，绿色是真值轨迹，橙色是带偏差的里程计，蓝色是扫描匹配修正后的轨迹，灰色点表示累积地图。红点表示相对冻结基线连续观测到的新增表面。第 120 帧开始加入新结构。右侧曲线展示定位误差。
+Green shows the ground-truth trajectory, orange shows biased odometry, blue shows the scan-matching estimate, and gray points show the accumulated map. Red points mark persistently observed surfaces absent from the frozen baseline. The new structure appears at frame 120. The right-hand plot tracks position error.
 
-观察三个问题：橙色轨迹如何逐渐偏离？蓝色轨迹怎样利用环境几何修正？新结构出现后，需要多少次观测才产生持续变化证据？
+Watch how odometry drifts, how environmental geometry corrects the estimated trajectory, and how repeated observations accumulate evidence after the structure appears.
 
-### 定位与建图如何连接
+### Connecting localization and mapping
 
-![当前 Python 定位和变化检测流程](docs/images/localization-pipeline.svg)
+![Python localization and change detection pipeline](docs/images/localization-pipeline.svg)
 
-每一帧的定位结果决定激光点落在地图的什么位置。定位偏差会让墙面出现重影，也会影响变化检测。因此，本项目先评估定位，再讨论新增表面与构件偏差。
+Each estimated pose determines where laser measurements enter the map. Pose errors can create duplicated wall surfaces and affect change detection. The experiment therefore evaluates localization before interpreting structural changes.
 
-ICP 依赖运动预测提供的初值。距离门限与裁剪帮助筛除部分错误对应；走廊、低重叠和较大的初始误差仍可能使匹配失败。这里的地图保存激光端点，后续 ROS 2 路线将引入栅格地图作为导航输入。
+ICP uses the motion prediction as its initial estimate. Correspondence gating and trimming reduce some incorrect matches. Corridors, low scan overlap and large initial errors remain challenging. The current map stores laser endpoints; the planned ROS 2 workflow introduces occupancy grids for navigation.
 
-### 当前示例的定位误差
+### Example localization results
 
-| 相同初始坐标系下的位置 RMSE | Seed 7 |
+| Position RMSE in the shared initial frame | Seed 7 |
 |---|---:|
-| 带偏差里程计 | 0.578 m |
-| 扫描到地图匹配 | 0.017 m |
+| Biased odometry | 0.578 m |
+| Scan-to-map estimate | 0.017 m |
 
-数值来自仓库的 [metrics.json](artifacts/metrics.json)，对应 240 帧合成场景。它展示这一场景中的表现，跨场景可靠性需要通过多种子、遮挡和几何退化实验继续评估。
+These values come from a 240-frame synthetic run. Multiple seeds, occlusions and degenerate geometry are needed to evaluate reliability across conditions. See the saved [experiment metrics](artifacts/metrics.json).
 
-### 下一步怎样使用 RViz 和 Gazebo
+### Working toward RViz and Gazebo
 
-![计划中的 Gazebo ROS 2 建图和定位路线](docs/images/ros2-gazebo-roadmap.svg)
+![Planned Gazebo ROS 2 mapping and localization workflow](docs/images/ros2-gazebo-roadmap.svg)
 
-**Gazebo** 负责模拟机器人、环境和传感器。**ROS 2** 负责连接节点、消息和时间。**RViz** 用来检查传感器、坐标变换、地图和轨迹，可以贯穿整个调试过程。
+**Gazebo** simulates the robot, environment and sensors. **ROS 2** connects nodes, messages and simulation time. **RViz** visualizes sensor data, transforms, maps and trajectories throughout debugging.
 
-先在 Gazebo 中确认机器人和激光正常工作，再检查 ROS 2 的 /scan、/odom、/clock 与 TF。接着用 SLAM Toolbox 建图并保存地图，最后重新加载地图，通过 AMCL 定位与 Nav2 导航验证它是否可用。
+The integration sequence starts with a working simulated robot and laser, followed by checks of /scan, /odom, /clock and TF. SLAM Toolbox then builds a map. A subsequent run loads the saved map for AMCL localization and Nav2 navigation.
 
-这一图展示计划中的集成流程。现有 ROS 2 适配器发布 /demo/path，运行验证与 Gazebo 集成仍待完成。逐步操作、验收材料和实验设计见 [中文研究路线](docs/RESEARCH_ROADMAP_ZH.md)。
+**Screenshot status** — This repository currently contains the Python simulation animation and result plot. Project-specific RViz and Gazebo screenshots are pending runtime integration and validation.
 
-### 从新增表面到安装偏差
+The next capture set will show the Gazebo robot and environment, RViz laser scans and TF, the completed occupancy map, and localization against the reloaded map. Each capture should identify the software versions, launch command and experiment stage.
+
+The current experimental ROS 2 adapter publishes /demo/path. Runtime validation and Gazebo integration remain pending. Follow the [integration notes](docs/ROS2.md) and [detailed research roadmap in Chinese](docs/RESEARCH_ROADMAP_ZH.md).
+
+### From new surfaces to placement error
 
 ```mermaid
 flowchart LR
-    A["冻结的基线地图"] --> C["持续新增表面"]
-    B["当前激光观测"] --> C
-    C --> D["已知尺寸矩形拟合"]
-    D --> E["与预先对齐的设计位姿比较"]
-    E --> F["位置与角度偏差"]
-    D --> G["几何证据不足时拒绝估计"]
+    A["Frozen baseline map"] --> C["Persistent new surfaces"]
+    B["Current laser observations"] --> C
+    C --> D["Fit a known-size rectangle"]
+    D --> E["Compare with the pre-aligned design pose"]
+    E --> F["Position and orientation deviation"]
+    D --> G["Reject estimates with insufficient geometry"]
 ```
 
-连续出现的表面提供候选几何。构件检查进一步使用已知矩形尺寸，拟合位置和朝向，再与设计位姿比较。只有一个可见面时，某些方向上的位置可能难以确定，需要更多视角。
+Persistent surfaces provide candidate geometry. Placement inspection fits a rectangle of known dimensions and compares its position and orientation with the design pose. A single visible face can leave some pose components weakly constrained, motivating additional viewpoints.
 
-后续实验会分别测量定位误差、变化检测精确率与召回率、检测延迟，以及构件位置和角度误差。相关方法与限制见 [构件检查说明](docs/INSPECTION_ZH.md)。
+Planned experiments measure localization error, change-detection precision and recall, detection latency, and placement error. Method details and observability limits are documented in the [placement inspection guide in Chinese](docs/INSPECTION_ZH.md).
 
 ## Research direction
 
@@ -66,7 +70,7 @@ This project investigates how scene changes affect LiDAR localization and how lo
 
 The next experiments compare odometry, the current ICP front end, and SLAM Toolbox under controlled geometry changes, then measure detection precision, recall, latency, and placement error.
 
-**[Step-by-step research roadmap 中文](docs/RESEARCH_ROADMAP_ZH.md)**
+**[Step-by-step research roadmap (Chinese)](docs/RESEARCH_ROADMAP_ZH.md)**
 
 | Stage | Work | Evidence |
 |---|---|---|
@@ -116,7 +120,7 @@ Truth ────────────────────────�
 - Baseline frozen after one lap; cells >30 cm from baseline need three consecutive observations.
 - Shared-origin trajectory RMSE, CSV export, and reproducible animation.
 - Known-size rectangle fitting with robust least squares, observability checks, translation/yaw tolerances and a planner-facing JSON report.
-- [Design inspection details (中文)](docs/INSPECTION_ZH.md).
+- [Design inspection details (Chinese)](docs/INSPECTION_ZH.md).
 
 The estimator does not receive true poses or world geometry. Ground-truth motion generates synthetic noisy odometry, as part of the simulator; truth is also used for evaluation. Initial map frame is the first scan frame. The route and insertion time are scripted, not planned autonomously.
 
@@ -147,7 +151,7 @@ This is a small mapping/localization front end, **not a complete production SLAM
 
 ## Learn and present
 
-- [中文学习与面试指南](docs/LEARNING_ZH.md)
+- [Learning and interview guide (Chinese)](docs/LEARNING_ZH.md)
 - [CV wording and application notes](docs/APPLICATION_ZH.md)
 - [ROS2 integration scope](docs/ROS2.md)
 

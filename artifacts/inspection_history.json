@@ -1,0 +1,2872 @@
+[
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 120,
+    "status": "insufficient_evidence",
+    "next_action": "observe_element",
+    "last_seen_frame": 120,
+    "observation_frames": 1,
+    "point_count": 26,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": null,
+    "translation_deviation_m": null,
+    "yaw_deviation_deg": null,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association"
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 121,
+    "status": "insufficient_evidence",
+    "next_action": "observe_element",
+    "last_seen_frame": 121,
+    "observation_frames": 2,
+    "point_count": 51,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": null,
+    "translation_deviation_m": null,
+    "yaw_deviation_deg": null,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association"
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 122,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 122,
+    "observation_frames": 3,
+    "point_count": 65,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7799632325766361,
+      1.994381797731122,
+      -1.4295376266684934
+    ],
+    "translation_deviation_m": 0.1267294497803254,
+    "yaw_deviation_deg": 8.09352733674701,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.008124122237884094
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 123,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 123,
+    "observation_frames": 4,
+    "point_count": 72,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7800020595433548,
+      1.994207172943866,
+      -1.430571067893067
+    ],
+    "translation_deviation_m": 0.12685359247849928,
+    "yaw_deviation_deg": 8.034315516204112,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.007925576548369293
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 124,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 124,
+    "observation_frames": 5,
+    "point_count": 80,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7796584424222226,
+      1.9933427088899074,
+      -1.43001423059741
+    ],
+    "translation_deviation_m": 0.12776428479591176,
+    "yaw_deviation_deg": 8.066219943120737,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.0080130888714397
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 125,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 125,
+    "observation_frames": 6,
+    "point_count": 92,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.778750067258684,
+      1.99433305290507,
+      -1.431108465346085
+    ],
+    "translation_deviation_m": 0.1274443275473837,
+    "yaw_deviation_deg": 8.003524910225096,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.00833010016215785
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 126,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 126,
+    "observation_frames": 7,
+    "point_count": 97,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7786506349024855,
+      1.99432085688114,
+      -1.4305642501779214
+    ],
+    "translation_deviation_m": 0.1275100513299048,
+    "yaw_deviation_deg": 8.034706142507874,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.008575912801216662
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 127,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 127,
+    "observation_frames": 8,
+    "point_count": 103,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7786928477741182,
+      1.9934385482865902,
+      -1.427828445746976
+    ],
+    "translation_deviation_m": 0.12821876988114683,
+    "yaw_deviation_deg": 8.191456189974232,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.009651040217561285
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 128,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 128,
+    "observation_frames": 9,
+    "point_count": 106,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7786156767341372,
+      1.9937811431429933,
+      -1.4268522884591237
+    ],
+    "translation_deviation_m": 0.12797721344104393,
+    "yaw_deviation_deg": 8.24738588270911,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.009717960356397031
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 129,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 129,
+    "observation_frames": 10,
+    "point_count": 111,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7786641786672854,
+      1.9936267106019014,
+      -1.427770168367442
+    ],
+    "translation_deviation_m": 0.1280783982667828,
+    "yaw_deviation_deg": 8.19479523786262,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.010078626664542815
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 130,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 130,
+    "observation_frames": 11,
+    "point_count": 114,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.778539084746361,
+      1.9943567975523284,
+      -1.427075595063586
+    ],
+    "translation_deviation_m": 0.12754273257339105,
+    "yaw_deviation_deg": 8.23459135673602,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.01027059440787441
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 131,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 131,
+    "observation_frames": 12,
+    "point_count": 116,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7780948063536437,
+      1.9946033352271784,
+      -1.4278476840505223
+    ],
+    "translation_deviation_m": 0.12758845487956413,
+    "yaw_deviation_deg": 8.190353916376042,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.010842329892286246
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 132,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 132,
+    "observation_frames": 13,
+    "point_count": 124,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7769146059484757,
+      1.9952976072562179,
+      -1.427645481309595
+    ],
+    "translation_deviation_m": 0.1276873755307854,
+    "yaw_deviation_deg": 8.201939280037159,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.012202565160231386
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 133,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 133,
+    "observation_frames": 14,
+    "point_count": 140,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.772891280872172,
+      1.9948823386490646,
+      -1.431308045406808
+    ],
+    "translation_deviation_m": 0.1303667031623652,
+    "yaw_deviation_deg": 7.992089815070713,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.01284112797374725
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 134,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 134,
+    "observation_frames": 15,
+    "point_count": 154,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7710600380727621,
+      1.9946320875992958,
+      -1.428596273709614
+    ],
+    "translation_deviation_m": 0.1316583250415874,
+    "yaw_deviation_deg": 8.147462888322947,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.012791292903796547
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 135,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 135,
+    "observation_frames": 16,
+    "point_count": 171,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7698245925522889,
+      1.9943288764733547,
+      -1.4280461227466457
+    ],
+    "translation_deviation_m": 0.13264419439534497,
+    "yaw_deviation_deg": 8.178984216596096,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.012922793902993232
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 136,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 136,
+    "observation_frames": 17,
+    "point_count": 178,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7687031483285016,
+      1.9941618903589986,
+      -1.4267371102769681
+    ],
+    "translation_deviation_m": 0.13345742221427132,
+    "yaw_deviation_deg": 8.253985106438613,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.013287993406651074
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 137,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 137,
+    "observation_frames": 18,
+    "point_count": 188,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7687455851210414,
+      1.994167667366639,
+      -1.4266389805653776
+    ],
+    "translation_deviation_m": 0.13342699340066203,
+    "yaw_deviation_deg": 8.259607524757586,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.013303384280475134
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 138,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 138,
+    "observation_frames": 19,
+    "point_count": 194,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767929479732147,
+      1.9939969720071502,
+      -1.426565049217381
+    ],
+    "translation_deviation_m": 0.13406047978688201,
+    "yaw_deviation_deg": 8.263843478971511,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.013597802336821717
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 139,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 139,
+    "observation_frames": 20,
+    "point_count": 200,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767382117068605,
+      1.9936238219608982,
+      -1.4278150068869533
+    ],
+    "translation_deviation_m": 0.13469077857920492,
+    "yaw_deviation_deg": 8.192226179935005,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014067663798932671
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 140,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 140,
+    "observation_frames": 21,
+    "point_count": 204,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7666676888518993,
+      1.9935189414815764,
+      -1.427681306592119
+    ],
+    "translation_deviation_m": 0.1352127579205744,
+    "yaw_deviation_deg": 8.199886642548664,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014389852732083345
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 141,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 141,
+    "observation_frames": 22,
+    "point_count": 204,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7666676888518993,
+      1.9935189414815764,
+      -1.427681306592119
+    ],
+    "translation_deviation_m": 0.1352127579205744,
+    "yaw_deviation_deg": 8.199886642548664,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014389852732083345
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 142,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 142,
+    "observation_frames": 23,
+    "point_count": 209,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7670954330852229,
+      1.9937898941798309,
+      -1.4276994913799967
+    ],
+    "translation_deviation_m": 0.1347358667677553,
+    "yaw_deviation_deg": 8.19884473095193,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014411149143366404
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 143,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 143,
+    "observation_frames": 24,
+    "point_count": 214,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7672441183767564,
+      1.9939395027901703,
+      -1.4280107601424123
+    ],
+    "translation_deviation_m": 0.13452644725717183,
+    "yaw_deviation_deg": 8.181010344571256,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014273609257294446
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 144,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 144,
+    "observation_frames": 25,
+    "point_count": 220,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7673914157821162,
+      1.994496469178131,
+      -1.4279656704060197
+    ],
+    "translation_deviation_m": 0.1339969148986807,
+    "yaw_deviation_deg": 8.183593796165908,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014243928509278886
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 145,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 145,
+    "observation_frames": 26,
+    "point_count": 226,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7671632539373694,
+      1.994775506078896,
+      -1.4286331947341053
+    ],
+    "translation_deviation_m": 0.13391833563480848,
+    "yaw_deviation_deg": 8.1453474694443,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014200757596842858
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 146,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 146,
+    "observation_frames": 27,
+    "point_count": 229,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7671646084069317,
+      1.9947693592208546,
+      -1.4289281067571997
+    ],
+    "translation_deviation_m": 0.13392232770963375,
+    "yaw_deviation_deg": 8.128450255193325,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.01412447051417175
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 147,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 147,
+    "observation_frames": 28,
+    "point_count": 236,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7671058398308719,
+      1.9954073641911503,
+      -1.428736403210505
+    ],
+    "translation_deviation_m": 0.13345808801113468,
+    "yaw_deviation_deg": 8.139434059336622,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014045427998489686
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 148,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 148,
+    "observation_frames": 29,
+    "point_count": 238,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7671568213826114,
+      1.9955338251159938,
+      -1.4283159760036472
+    ],
+    "translation_deviation_m": 0.13332731879974322,
+    "yaw_deviation_deg": 8.163522763882046,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014009328731630669
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 149,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 149,
+    "observation_frames": 30,
+    "point_count": 239,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7671632945169768,
+      1.9954893709403632,
+      -1.4284012216124975
+    ],
+    "translation_deviation_m": 0.1333581319669789,
+    "yaw_deviation_deg": 8.158638550272903,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.013981926685957264
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 150,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 150,
+    "observation_frames": 31,
+    "point_count": 242,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7670310138917211,
+      1.9958848769763071,
+      -1.4294430531126656
+    ],
+    "translation_deviation_m": 0.13313080596944687,
+    "yaw_deviation_deg": 8.098946002349486,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.013974188510097846
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 151,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 151,
+    "observation_frames": 32,
+    "point_count": 245,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7671257427015952,
+      1.9957557423502141,
+      -1.4286948435455293
+    ],
+    "translation_deviation_m": 0.1331728492438199,
+    "yaw_deviation_deg": 8.141815252737706,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.013911401983875372
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 152,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 152,
+    "observation_frames": 33,
+    "point_count": 247,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7671508804080382,
+      1.9955771820070156,
+      -1.4284724969892693
+    ],
+    "translation_deviation_m": 0.13329704248316673,
+    "yaw_deviation_deg": 8.154554772000676,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.013901768860225617
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 153,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 153,
+    "observation_frames": 34,
+    "point_count": 249,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7670272478647888,
+      1.995441949454492,
+      -1.4276647230400457
+    ],
+    "translation_deviation_m": 0.1334798244333886,
+    "yaw_deviation_deg": 8.200836810091802,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.013904774101993101
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 154,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 154,
+    "observation_frames": 35,
+    "point_count": 250,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7670376954462217,
+      1.995370094766634,
+      -1.4275294631691406
+    ],
+    "translation_deviation_m": 0.13352962609854435,
+    "yaw_deviation_deg": 8.208586629832144,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.01388247810610022
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 155,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 155,
+    "observation_frames": 36,
+    "point_count": 253,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767018557121773,
+      1.9955000481650043,
+      -1.428008489655007
+    ],
+    "translation_deviation_m": 0.13343972345470792,
+    "yaw_deviation_deg": 8.181140433917024,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.01389662590458105
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 156,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 156,
+    "observation_frames": 37,
+    "point_count": 256,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7668703826983911,
+      1.9959888301946942,
+      -1.4291959288927898
+    ],
+    "translation_deviation_m": 0.13314975297378565,
+    "yaw_deviation_deg": 8.113105177163835,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.013935375762783924
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 157,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 157,
+    "observation_frames": 38,
+    "point_count": 257,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7668897302189863,
+      1.9958462823263088,
+      -1.429367732879967
+    ],
+    "translation_deviation_m": 0.13324906696980615,
+    "yaw_deviation_deg": 8.103261533795061,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.013940150361641236
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 158,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 158,
+    "observation_frames": 39,
+    "point_count": 260,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7668869936703986,
+      1.9958560267438226,
+      -1.4296257566203519
+    ],
+    "translation_deviation_m": 0.13324315737300657,
+    "yaw_deviation_deg": 8.088477862456829,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.01401689143538234
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 159,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 159,
+    "observation_frames": 40,
+    "point_count": 262,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.766995781248548,
+      1.9960840958749513,
+      -1.4300924944054585
+    ],
+    "translation_deviation_m": 0.13299705057130123,
+    "yaw_deviation_deg": 8.061735757230934,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014060915489532736
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 160,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 160,
+    "observation_frames": 41,
+    "point_count": 262,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.766995781248548,
+      1.9960840958749513,
+      -1.4300924944054585
+    ],
+    "translation_deviation_m": 0.13299705057130123,
+    "yaw_deviation_deg": 8.061735757230934,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014060915489532736
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 161,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 161,
+    "observation_frames": 42,
+    "point_count": 262,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.766995781248548,
+      1.9960840958749513,
+      -1.4300924944054585
+    ],
+    "translation_deviation_m": 0.13299705057130123,
+    "yaw_deviation_deg": 8.061735757230934,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014060915489532736
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 162,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 162,
+    "observation_frames": 43,
+    "point_count": 263,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.766984557997752,
+      1.9961662766063402,
+      -1.4300603557862515
+    ],
+    "translation_deviation_m": 0.13293985754701151,
+    "yaw_deviation_deg": 8.063577164470876,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014043142628253215
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 163,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 162,
+    "observation_frames": 43,
+    "point_count": 263,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.766984557997752,
+      1.9961662766063402,
+      -1.4300603557862515
+    ],
+    "translation_deviation_m": 0.13293985754701151,
+    "yaw_deviation_deg": 8.063577164470876,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014043142628253215
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 164,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 162,
+    "observation_frames": 43,
+    "point_count": 263,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.766984557997752,
+      1.9961662766063402,
+      -1.4300603557862515
+    ],
+    "translation_deviation_m": 0.13293985754701151,
+    "yaw_deviation_deg": 8.063577164470876,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014043142628253215
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 165,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 162,
+    "observation_frames": 43,
+    "point_count": 263,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.766984557997752,
+      1.9961662766063402,
+      -1.4300603557862515
+    ],
+    "translation_deviation_m": 0.13293985754701151,
+    "yaw_deviation_deg": 8.063577164470876,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014043142628253215
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 166,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 162,
+    "observation_frames": 43,
+    "point_count": 263,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.766984557997752,
+      1.9961662766063402,
+      -1.4300603557862515
+    ],
+    "translation_deviation_m": 0.13293985754701151,
+    "yaw_deviation_deg": 8.063577164470876,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014043142628253215
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 167,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 162,
+    "observation_frames": 43,
+    "point_count": 263,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.766984557997752,
+      1.9961662766063402,
+      -1.4300603557862515
+    ],
+    "translation_deviation_m": 0.13293985754701151,
+    "yaw_deviation_deg": 8.063577164470876,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014043142628253215
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 168,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 162,
+    "observation_frames": 43,
+    "point_count": 263,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.766984557997752,
+      1.9961662766063402,
+      -1.4300603557862515
+    ],
+    "translation_deviation_m": 0.13293985754701151,
+    "yaw_deviation_deg": 8.063577164470876,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014043142628253215
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 169,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 169,
+    "observation_frames": 44,
+    "point_count": 264,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7669782268210426,
+      1.9962140224848823,
+      -1.4300170904748197
+    ],
+    "translation_deviation_m": 0.13290652335587896,
+    "yaw_deviation_deg": 8.066056084215234,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014019337820348818
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 170,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 170,
+    "observation_frames": 45,
+    "point_count": 265,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767002351486765,
+      1.9960443490893252,
+      -1.4299661182894827
+    ],
+    "translation_deviation_m": 0.1330240091674756,
+    "yaw_deviation_deg": 8.068976575307602,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014056779058918053
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 171,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 171,
+    "observation_frames": 46,
+    "point_count": 265,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767002351486765,
+      1.9960443490893252,
+      -1.4299661182894827
+    ],
+    "translation_deviation_m": 0.1330240091674756,
+    "yaw_deviation_deg": 8.068976575307602,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014056779058918053
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 172,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 172,
+    "observation_frames": 47,
+    "point_count": 266,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7669898458054778,
+      1.9961411649813952,
+      -1.4298357800402182
+    ],
+    "translation_deviation_m": 0.13295617063837303,
+    "yaw_deviation_deg": 8.076444406899585,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014043907075644645
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 173,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 173,
+    "observation_frames": 48,
+    "point_count": 266,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7669898458054778,
+      1.9961411649813952,
+      -1.4298357800402182
+    ],
+    "translation_deviation_m": 0.13295617063837303,
+    "yaw_deviation_deg": 8.076444406899585,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014043907075644645
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 174,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 174,
+    "observation_frames": 49,
+    "point_count": 267,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7670057778228363,
+      1.9960304578844266,
+      -1.429781213626627
+    ],
+    "translation_deviation_m": 0.13303272756173362,
+    "yaw_deviation_deg": 8.079570832101522,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014037000353628216
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 175,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 175,
+    "observation_frames": 50,
+    "point_count": 269,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7669931905282583,
+      1.9961194467280594,
+      -1.4297972519520876
+    ],
+    "translation_deviation_m": 0.1329710486036812,
+    "yaw_deviation_deg": 8.078651903742173,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014258958610538242
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 176,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 176,
+    "observation_frames": 51,
+    "point_count": 269,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7669931905282583,
+      1.9961194467280594,
+      -1.4297972519520876
+    ],
+    "translation_deviation_m": 0.1329710486036812,
+    "yaw_deviation_deg": 8.078651903742173,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014258958610538242
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 177,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 177,
+    "observation_frames": 52,
+    "point_count": 269,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7669931905282583,
+      1.9961194467280594,
+      -1.4297972519520876
+    ],
+    "translation_deviation_m": 0.1329710486036812,
+    "yaw_deviation_deg": 8.078651903742173,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014258958610538242
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 178,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 178,
+    "observation_frames": 53,
+    "point_count": 270,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7670235359008803,
+      1.9959292562958513,
+      -1.4293277174305172
+    ],
+    "translation_deviation_m": 0.13310076366996224,
+    "yaw_deviation_deg": 8.105554250163852,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014341220905540956
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 179,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 179,
+    "observation_frames": 54,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 180,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 180,
+    "observation_frames": 55,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 181,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 182,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 183,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 184,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 185,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 186,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 187,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 188,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 189,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 190,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 191,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 192,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 193,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 194,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 195,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 196,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 197,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 198,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 199,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 200,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 201,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 202,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 203,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 181,
+    "observation_frames": 56,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 204,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 204,
+    "observation_frames": 57,
+    "point_count": 271,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767140380162631,
+      1.9956583281475866,
+      -1.4287009935614732
+    ],
+    "translation_deviation_m": 0.1332400130762154,
+    "yaw_deviation_deg": 8.141462882780186,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014458201089350893
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 205,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 205,
+    "observation_frames": 58,
+    "point_count": 272,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7672738625222741,
+      1.9956762769126746,
+      -1.4282174919029647
+    ],
+    "translation_deviation_m": 0.1331429796150912,
+    "yaw_deviation_deg": 8.1691654872003,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014467989709660786
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 206,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 206,
+    "observation_frames": 59,
+    "point_count": 275,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7676432236812298,
+      1.9957316613389762,
+      -1.4288290514832063
+    ],
+    "translation_deviation_m": 0.13287033172514445,
+    "yaw_deviation_deg": 8.134125704331662,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014490792132932731
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 207,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 207,
+    "observation_frames": 60,
+    "point_count": 276,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7677512369413184,
+      1.9957470682094318,
+      -1.428724580319467
+    ],
+    "translation_deviation_m": 0.13279131301260652,
+    "yaw_deviation_deg": 8.14011146109474,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014487202868324838
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 208,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 208,
+    "observation_frames": 61,
+    "point_count": 279,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7679843049305712,
+      1.995905525057813,
+      -1.4286407021237373
+    ],
+    "translation_deviation_m": 0.13252257902414646,
+    "yaw_deviation_deg": 8.144917327703228,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014503014201878682
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 209,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 209,
+    "observation_frames": 62,
+    "point_count": 282,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7678271942967818,
+      1.9958827737113114,
+      -1.4286618904361066
+    ],
+    "translation_deviation_m": 0.13263772769159182,
+    "yaw_deviation_deg": 8.143703326829462,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014442642952287085
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 210,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 210,
+    "observation_frames": 63,
+    "point_count": 284,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7678484220834798,
+      1.9957671797797625,
+      -1.4287669248867059
+    ],
+    "translation_deviation_m": 0.1327153441213128,
+    "yaw_deviation_deg": 8.137685296106648,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014413328839713859
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 211,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 211,
+    "observation_frames": 64,
+    "point_count": 286,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7679955270387884,
+      1.9957891608594196,
+      -1.4289272950340968
+    ],
+    "translation_deviation_m": 0.13260706082268037,
+    "yaw_deviation_deg": 8.128496763501259,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014469159722249847
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 212,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 212,
+    "observation_frames": 65,
+    "point_count": 287,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767908075005463,
+      1.9957751632957623,
+      -1.4286062664700905
+    ],
+    "translation_deviation_m": 0.13267215508664104,
+    "yaw_deviation_deg": 8.146890345321964,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014457997101845291
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 213,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 213,
+    "observation_frames": 66,
+    "point_count": 288,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7680498509367364,
+      1.9957953863687325,
+      -1.4285162667442264
+    ],
+    "translation_deviation_m": 0.13256858011434267,
+    "yaw_deviation_deg": 8.15204694977131,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.01449045301496566
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 214,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 214,
+    "observation_frames": 67,
+    "point_count": 289,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.768154940047638,
+      1.9958115488394021,
+      -1.4287481311680095
+    ],
+    "translation_deviation_m": 0.13249093249671862,
+    "yaw_deviation_deg": 8.138762096869307,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014490921066559042
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 215,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 215,
+    "observation_frames": 68,
+    "point_count": 290,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7681187447680924,
+      1.9958067670473576,
+      -1.4288674096164533
+    ],
+    "translation_deviation_m": 0.13251705456837032,
+    "yaw_deviation_deg": 8.131927945186606,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014467831736720936
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 216,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 216,
+    "observation_frames": 69,
+    "point_count": 293,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7678676511972382,
+      1.996045047142534,
+      -1.4308587491118498
+    ],
+    "translation_deviation_m": 0.13248530085808216,
+    "yaw_deviation_deg": 8.017832596522673,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014486223066324999
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 217,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 217,
+    "observation_frames": 70,
+    "point_count": 294,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7676665974985457,
+      1.9957422556348858,
+      -1.4290999490837213
+    ],
+    "translation_deviation_m": 0.1328475307545007,
+    "yaw_deviation_deg": 8.118604415141931,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014524093663274383
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 218,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 218,
+    "observation_frames": 71,
+    "point_count": 296,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7680241431876484,
+      1.9960671012844764,
+      -1.4306878096574833
+    ],
+    "translation_deviation_m": 0.13237102604244816,
+    "yaw_deviation_deg": 8.027626705810144,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014649847527117139
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 219,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 219,
+    "observation_frames": 72,
+    "point_count": 298,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7677820777129123,
+      1.9957593577983823,
+      -1.429192634116834
+    ],
+    "translation_deviation_m": 0.13276256336713035,
+    "yaw_deviation_deg": 8.113293953920545,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014641792680543032
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 220,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 220,
+    "observation_frames": 73,
+    "point_count": 300,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767537006927558,
+      1.995724337707395,
+      -1.4292847793234238
+    ],
+    "translation_deviation_m": 0.132941938352903,
+    "yaw_deviation_deg": 8.108014422480586,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014719494269454684
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 221,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 221,
+    "observation_frames": 74,
+    "point_count": 301,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7676786820505304,
+      1.995745360838895,
+      -1.4294112554360878
+    ],
+    "translation_deviation_m": 0.13283760452353052,
+    "yaw_deviation_deg": 8.100767875015716,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.0147628847381438
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 222,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 222,
+    "observation_frames": 75,
+    "point_count": 305,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7676880477173296,
+      1.9960196223178939,
+      -1.4309651119439166
+    ],
+    "translation_deviation_m": 0.13261665216517146,
+    "yaw_deviation_deg": 8.011738455148189,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014770648849002994
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 223,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 222,
+    "observation_frames": 75,
+    "point_count": 305,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7676880477173296,
+      1.9960196223178939,
+      -1.4309651119439166
+    ],
+    "translation_deviation_m": 0.13261665216517146,
+    "yaw_deviation_deg": 8.011738455148189,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014770648849002994
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 224,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 222,
+    "observation_frames": 75,
+    "point_count": 305,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7676880477173296,
+      1.9960196223178939,
+      -1.4309651119439166
+    ],
+    "translation_deviation_m": 0.13261665216517146,
+    "yaw_deviation_deg": 8.011738455148189,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014770648849002994
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 225,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 222,
+    "observation_frames": 75,
+    "point_count": 305,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7676880477173296,
+      1.9960196223178939,
+      -1.4309651119439166
+    ],
+    "translation_deviation_m": 0.13261665216517146,
+    "yaw_deviation_deg": 8.011738455148189,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014770648849002994
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 226,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 222,
+    "observation_frames": 75,
+    "point_count": 305,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7676880477173296,
+      1.9960196223178939,
+      -1.4309651119439166
+    ],
+    "translation_deviation_m": 0.13261665216517146,
+    "yaw_deviation_deg": 8.011738455148189,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014770648849002994
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 227,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 222,
+    "observation_frames": 75,
+    "point_count": 305,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7676880477173296,
+      1.9960196223178939,
+      -1.4309651119439166
+    ],
+    "translation_deviation_m": 0.13261665216517146,
+    "yaw_deviation_deg": 8.011738455148189,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014770648849002994
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 228,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 222,
+    "observation_frames": 75,
+    "point_count": 305,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7676880477173296,
+      1.9960196223178939,
+      -1.4309651119439166
+    ],
+    "translation_deviation_m": 0.13261665216517146,
+    "yaw_deviation_deg": 8.011738455148189,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014770648849002994
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 229,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 229,
+    "observation_frames": 76,
+    "point_count": 306,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7674956342230348,
+      1.9957174132709457,
+      -1.429077410185901
+    ],
+    "translation_deviation_m": 0.13297303586502807,
+    "yaw_deviation_deg": 8.119895798861913,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.01481194293314316
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 230,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 230,
+    "observation_frames": 77,
+    "point_count": 307,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7674765061335034,
+      1.995714642504079,
+      -1.4290769493939481
+    ],
+    "translation_deviation_m": 0.13298707767292947,
+    "yaw_deviation_deg": 8.119922200296042,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.01478838919504934
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 231,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 231,
+    "observation_frames": 78,
+    "point_count": 308,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7675981319283138,
+      1.995730942282576,
+      -1.4287847380929735
+    ],
+    "translation_deviation_m": 0.1328988497278404,
+    "yaw_deviation_deg": 8.136664674567918,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.014807770261162749
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 232,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 232,
+    "observation_frames": 79,
+    "point_count": 312,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7674904917479612,
+      1.9957149552942741,
+      -1.4287031428869177
+    ],
+    "translation_deviation_m": 0.1329781542256792,
+    "yaw_deviation_deg": 8.141339735503415,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.01483236284963439
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 233,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 233,
+    "observation_frames": 80,
+    "point_count": 315,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7679527407299505,
+      1.9957795851203286,
+      -1.4281041460717958
+    ],
+    "translation_deviation_m": 0.1326410480636277,
+    "yaw_deviation_deg": 8.175659724951677,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.015159349971955364
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 234,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 234,
+    "observation_frames": 81,
+    "point_count": 315,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7679527407299505,
+      1.9957795851203286,
+      -1.4281041460717958
+    ],
+    "translation_deviation_m": 0.1326410480636277,
+    "yaw_deviation_deg": 8.175659724951677,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.015159349971955364
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 235,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 235,
+    "observation_frames": 82,
+    "point_count": 315,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7679527407299505,
+      1.9957795851203286,
+      -1.4281041460717958
+    ],
+    "translation_deviation_m": 0.1326410480636277,
+    "yaw_deviation_deg": 8.175659724951677,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.015159349971955364
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 236,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 236,
+    "observation_frames": 83,
+    "point_count": 315,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7679527407299505,
+      1.9957795851203286,
+      -1.4281041460717958
+    ],
+    "translation_deviation_m": 0.1326410480636277,
+    "yaw_deviation_deg": 8.175659724951677,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.015159349971955364
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 237,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 237,
+    "observation_frames": 84,
+    "point_count": 316,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.767912465027036,
+      1.9957740185079753,
+      -1.428177213383523
+    ],
+    "translation_deviation_m": 0.1326703381163759,
+    "yaw_deviation_deg": 8.171473276369335,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.015138719981609533
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 238,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 238,
+    "observation_frames": 85,
+    "point_count": 317,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7679239289928417,
+      1.9957758285716751,
+      -1.4282114621533417
+    ],
+    "translation_deviation_m": 0.13266182322692907,
+    "yaw_deviation_deg": 8.169510966405214,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.01511513283271457
+  },
+  {
+    "element_id": "panel_01",
+    "frame_id": "demo_map",
+    "frame": 239,
+    "status": "deviation_detected",
+    "next_action": "request_placement_review",
+    "last_seen_frame": 239,
+    "observation_frames": 86,
+    "point_count": 317,
+    "design_pose": [
+      1.85,
+      2.1,
+      -1.5707963267948966
+    ],
+    "estimated_pose": [
+      1.7679239289928417,
+      1.9957758285716751,
+      -1.4282114621533417
+    ],
+    "translation_deviation_m": 0.13266182322692907,
+    "yaw_deviation_deg": 8.169510966405214,
+    "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+    "fit_rmse_m": 0.01511513283271457
+  }
+]

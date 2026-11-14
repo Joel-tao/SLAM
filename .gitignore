@@ -1,0 +1,11 @@
+*venv/
+__pycache__/
+*.pyc
+artifacts/*
+!artifacts/overview.png
+!artifacts/demo.gif
+!artifacts/metrics.json
+!artifacts/construction_state.json
+!artifacts/inspection_history.json
+!artifacts/trajectory.csv
+!artifacts/validation.json

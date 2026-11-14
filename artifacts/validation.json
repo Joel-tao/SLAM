@@ -1,0 +1,74 @@
+[
+  {
+    "metrics": {
+      "seed": 1,
+      "frames": 240,
+      "insertion_frame": 120,
+      "scan_to_map_position_rmse_m": 0.026124197727668292,
+      "odometry_position_rmse_m": 0.5949106093628022,
+      "rejected_scans": 0,
+      "peak_persistent_novel_cells": 10,
+      "scoring": "Position RMSE in shared initial frame; no post-hoc alignment"
+    },
+    "inspection": {
+      "element_id": "panel_01",
+      "frame_id": "demo_map",
+      "frame": 239,
+      "status": "deviation_detected",
+      "next_action": "request_placement_review",
+      "last_seen_frame": 239,
+      "observation_frames": 86,
+      "point_count": 325,
+      "design_pose": [
+        1.85,
+        2.1,
+        -1.5707963267948966
+      ],
+      "estimated_pose": [
+        1.7622422040319312,
+        1.9953737733148116,
+        -1.4308683904907988
+      ],
+      "translation_deviation_m": 0.13655796594689618,
+      "yaw_deviation_deg": 8.01728018620021,
+      "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+      "fit_rmse_m": 0.014370616659697839
+    }
+  },
+  {
+    "metrics": {
+      "seed": 42,
+      "frames": 240,
+      "insertion_frame": 120,
+      "scan_to_map_position_rmse_m": 0.02792006612559331,
+      "odometry_position_rmse_m": 0.5332254843067405,
+      "rejected_scans": 0,
+      "peak_persistent_novel_cells": 10,
+      "scoring": "Position RMSE in shared initial frame; no post-hoc alignment"
+    },
+    "inspection": {
+      "element_id": "panel_01",
+      "frame_id": "demo_map",
+      "frame": 239,
+      "status": "deviation_detected",
+      "next_action": "request_placement_review",
+      "last_seen_frame": 239,
+      "observation_frames": 86,
+      "point_count": 341,
+      "design_pose": [
+        1.85,
+        2.1,
+        -1.5707963267948966
+      ],
+      "estimated_pose": [
+        1.7841209032432572,
+        1.9948202564752393,
+        -1.434842218828681
+      ],
+      "translation_deviation_m": 0.12410815379103318,
+      "yaw_deviation_deg": 7.7895965939300815,
+      "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+      "fit_rmse_m": 0.014885707132488423
+    }
+  }
+]

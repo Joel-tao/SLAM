@@ -1,0 +1,10 @@
+{
+  "seed": 7,
+  "frames": 240,
+  "insertion_frame": 120,
+  "scan_to_map_position_rmse_m": 0.017045377446504917,
+  "odometry_position_rmse_m": 0.5775580392086529,
+  "rejected_scans": 0,
+  "peak_persistent_novel_cells": 9,
+  "scoring": "Position RMSE in shared initial frame; no post-hoc alignment"
+}

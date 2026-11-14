@@ -1,0 +1,24 @@
+{
+  "element_id": "panel_01",
+  "frame_id": "demo_map",
+  "frame": 239,
+  "status": "deviation_detected",
+  "next_action": "request_placement_review",
+  "last_seen_frame": 239,
+  "observation_frames": 86,
+  "point_count": 317,
+  "design_pose": [
+    1.85,
+    2.1,
+    -1.5707963267948966
+  ],
+  "estimated_pose": [
+    1.7679239289928417,
+    1.9957758285716751,
+    -1.4282114621533417
+  ],
+  "translation_deviation_m": 0.13266182322692907,
+  "yaw_deviation_deg": 8.169510966405214,
+  "assumption": "Single stationary known-size rectangle; pre-aligned design; local association",
+  "fit_rmse_m": 0.01511513283271457
+}

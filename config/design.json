@@ -1,0 +1,9 @@
+{
+  "frame_id": "demo_map",
+  "registration": "Known design-to-map alignment assumed; no CAD registration estimated",
+  "element_id": "panel_01",
+  "size_m": [1.0, 0.7],
+  "design_pose": [1.85, 2.1, -1.5707963267948966],
+  "translation_tolerance_m": 0.08,
+  "yaw_tolerance_deg": 5.0
+}

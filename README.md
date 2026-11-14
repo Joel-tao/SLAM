@@ -6,6 +6,25 @@ A simulated robot surveys a room twice. A new structural element appears during 
 
 ![Demo](artifacts/demo.gif)
 
+## Research direction
+
+This project investigates how scene changes affect LiDAR localization and how localization error propagates into construction-change detection and placement inspection.
+
+The next experiments compare odometry, the current ICP front end, and SLAM Toolbox under controlled geometry changes, then measure detection precision, recall, latency, and placement error.
+
+**[Step-by-step research roadmap 中文](docs/RESEARCH_ROADMAP_ZH.md)**
+
+| Stage | Work | Evidence |
+|---|---|---|
+| Localization foundations | Reproduce SE(2), odometry and ICP experiments | Existing Python demo and tests |
+| Controlled experiments | Multiple seeds, noise and geometry ablations | Planned experiment records |
+| ROS 2 and RViz | Inspect messages, timestamps, TF and trajectories | Adapter exists; runtime verification pending |
+| Gazebo integration | Simulated sensors, clock and rosbag recording | Planned |
+| Mapping and localization | SLAM Toolbox mapping, map export, AMCL localization | Planned |
+| Changing environments | Compare methods and quantify inspection errors | Planned |
+
+Follow the roadmap for commands, acceptance criteria, evaluation definitions and experiment records. Gazebo and ROS 2 integration results will be added after execution.
+
 ## Run
 
 Python 3.11 recommended. No ROS, GPU, or Gazebo required for this reproducible experiment.
